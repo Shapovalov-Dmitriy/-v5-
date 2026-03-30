@@ -75,7 +75,7 @@ function addAnimatedLetter(letter) {
 const data = [
   // 🟢 ЛЁГКИЙ УРОВЕНЬ (3-4 буквы)
   { word: 'дом', image: "./images/img-words/house.webp", audio: './audio/audio-words/дом.mp3', level: 1 },
-  { word: 'юла', image: "../images/img-words/yula.webp", audio: './audio/audio-words/юла.mp3', level: 1 },
+  { word: 'юла', image: "./images/img-words/yula.webp", audio: './audio/audio-words/юла.mp3', level: 1 },
   { word: 'мама', image: "./images/img-words/mama.webp", audio: './audio/audio-words/мама.mp3', level: 1 },
   { word: 'небо', image: "./images/img-words/nebo.webp", audio: './audio/audio-words/небо.mp3', level: 1 },
   { word: 'рыбка', image: "./images/img-words/fish.webp", audio: './audio/audio-words/рыбка.mp3', level: 1 },
