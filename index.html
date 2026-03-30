@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/style.css" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="overlay position none">
+  </div>
+  <div class="container">
+
+    <h1 class="title">Напиши слово</h1>
+    <!-- ============================================
+     📊 ВЫБОР УРОВНЯ СЛОЖНОСТИ
+     ============================================ -->
+    <div class="level-selector">
+      <span class="level-label">Уровень сложности:</span>
+      <button class="level-btn" data-level="1">🟢 Лёгкий</button>
+      <button class="level-btn" data-level="2">🟡 Средний</button>
+      <button class="level-btn" data-level="3">🔴 Сложный</button>
+    </div>
+
+    <!-- Индикатор текущего уровня -->
+    <div class="level-indicator">
+      <span>Текущий уровень: </span>
+      <span id="current-level-display">🟢 Лёгкий</span>
+    </div>
+    <div class="control-wrapper">
+      <!-- кнопка назад -->
+      <button class="btn prev-word" id="prevButton">
+        <span class="icon-arrow-left"></span>
+        Назад
+      </button>
+
+      <div class="content-box">
+        <!-- изображение слова -->
+        <img class="images-box" src="" alt="Изображение">
+        <p class="input-word"></p>
+        <audio class="audio-output" autoplay src="">сказать</audio>
+      </div>
+      <!-- кнопка далее -->
+      <button class="btn next-word" id="nextButton">Далее
+        <span class="icon-arrow-right"></span>
+      </button>
+    </div>
+    <!-- пользовательское слово -->
+    <p class="word"></p>
+    <div class="btn-wrapper">
+      <button class="btn reset">Сброс
+        <span class="icon-cross"></span>
+      </button>
+      <button class="btn delete">Удалить букву
+        <span class="icon-bin"></span>
+      </button>
+      <button class="btn check">Проверить
+        <span class="icon-checkmark"></span>
+      </button>
+      <button class="btn audio-check">Слушать слово
+        <span class="icon-volume-medium"></span>
+      </button>
+    </div>
+    <!-- Буквы алфавита -->
+    <div class="alphabet">
+      <div class="first-line-letters">
+        <button class="keyboard-key alphabet__item letter" data-letter="ё">Ё</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="й">Й</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="ц">Ц</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="у">У</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="к">К</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="е">Е</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="н">Н</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="г">Г</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="ш">Ш</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="щ">Щ</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="з">З</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="х">Х</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="ъ">Ъ</button>
+      </div>
+      <div class="second-line-letters">
+        <button class="keyboard-key alphabet__item letter" data-letter="ф">Ф</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="ы">Ы</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="в">В</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="а">А</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="п">П</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="р">Р</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="о">О</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="л">Л</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="д">Д</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="ж">Ж</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="э">Э</button>
+      </div>
+      <div class="last-line-letters">
+        <button class="keyboard-key alphabet__item letter" data-letter="я">Я</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="ч">Ч</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="с">С</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="м">М</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="и">И</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="т">Т</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="ь">Ь</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="б">Б</button>
+        <button class="keyboard-key alphabet__item letter" data-letter="ю">Ю</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
