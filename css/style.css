@@ -219,7 +219,7 @@ body {
 
 .position::before {
   content: '';
-  background: url('./images/salut.gif')center / cover no-repeat;
+  background: url('../images/salut.gif') center / cover no-repeat;
   position: absolute;
   top: 0;
   right: 0;
