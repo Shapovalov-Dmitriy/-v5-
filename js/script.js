@@ -86,7 +86,7 @@ const data = [
   { word: 'жираф', image: "./images/img-words/jiraf.jpg", audio: './audio/audio-words/жираф.mp3', level: 2 },
   { word: 'апельсин', image: "./images/img-words/orange.webp", audio: './audio/audio-words/апельсин.mp3', level: 2 },
   { word: 'зеркало', image: "./images/img-words/zerkalo.png", audio: './audio/audio-words/зеркало.mp3', level: 2 },
-  { word: 'дерево', image: "./images/img-words/derevo.webp", audio: '../audio/audio-words/дерево.mp3', level: 2 },
+  { word: 'дерево', image: "./images/img-words/derevo.webp", audio: './audio/audio-words/дерево.mp3', level: 2 },
   { word: 'диван', image: "./images/img-words/divan.png", audio: './audio/audio-words/диван.mp3', level: 2 },
   { word: 'корова', image: "./images/img-words/korova.webp", audio: './audio/audio-words/корова.mp3', level: 2 },
   { word: 'кошка', image: "./images/img-words/koshka.webp", audio: './audio/audio-words/кошка.mp3', level: 2 },
